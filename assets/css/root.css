@@ -1,3 +1,10 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Roboto", sans-serif;
+}
+
 :root {
 	--black: #000001;
 	--yellow: #ffff33;

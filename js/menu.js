@@ -4,6 +4,7 @@ const $boton = document.querySelector(".navboton")
 const $navegacion = document.querySelector(".menu-mobile")
 
 
+
 function nav(){
     $navegacion.classList.toggle("oculto")
     
@@ -12,8 +13,8 @@ function nav(){
 document.addEventListener("click",(e)=>{
     
     if(e.target.matches(".navboton")){
+        console.log("click en", e.target)
         nav()           
     }
     
-    console.log("click en",e.target)
 })

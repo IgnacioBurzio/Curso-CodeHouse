@@ -1,3 +1,5 @@
+@import url(root.css);
+
 * {
 	padding: 0;
 	margin: 0;
@@ -44,7 +46,6 @@ body {
 					margin: 0 auto;
 				}
 				figcaption {
-					font-size: 20px;
 					font-family: "roboto", sans-serif;
 					margin: 5px 0;
 					color: var(--white);
@@ -100,7 +101,7 @@ body {
 					justify-content: center;
 					border-bottom: 1px solid var(--white);
 					border-top: 1px solid var(--white);
-					font-size: 25px;
+
 					color: var(--white);
 					font-family: "roboto", sans-serif;
 				}
@@ -130,7 +131,7 @@ body {
 							height: 50%;
 							background: var(--light-black);
 							font-family: "roboto", sans-serif;
-							font-size: larger;
+
 							color: var(--white);
 							border-bottom: 5px solid var(--black);
 						}
@@ -138,7 +139,7 @@ body {
 							background: var(--white);
 							font-family: "roboto", sans-serif;
 							color: var(--black);
-							font-size: 18px;
+
 							border: none;
 						}
 					}

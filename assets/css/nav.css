@@ -1,12 +1,6 @@
 /* -------------------------------------------------------------------------------------RESET---------------------------------------------------------------------------- */
 @import url(root.css);
 
-* {
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-}
-
 /* -------------------------------------------------------------------------------------NAV BAR---------------------------------------------------------------------------- */
 header {
 	display: flex;
@@ -19,7 +13,6 @@ header {
 	width: 100%;
 	padding: 1em 1em;
 	z-index: 999;
-	font-family: "roboto", sans-serif;
 }
 
 header * {
@@ -65,7 +58,7 @@ header > nav > ul {
 .navegacion-lista {
 	height: 25%;
 	width: 100%;
-	background: var(--red);
+	background: linear-gradient(180deg, rgb(148, 143, 143), rgb(105, 99, 99));
 	padding: 2em;
 	border-bottom: 1px solid var(--black);
 	text-decoration: none;
@@ -79,7 +72,7 @@ header > nav > ul {
 .oculto {
 	transform: translate(0, 0);
 	position: sticky;
-	top: 86px;
+	top: 80px;
 }
 
 /* MEDIA Q */
