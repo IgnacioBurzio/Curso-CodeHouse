@@ -97,7 +97,6 @@ body {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	font-size: var(--fs-medium);
 }
 
 .nuevo,
@@ -162,7 +161,7 @@ select {
 	color: #5d5c5c;
 	text-align-last: center;
 	font-family: "roboto", sans-serif;
-	font-size: var(--fs-small);
+	font-size: 16px;
 }
 
 .btn-buscar {
@@ -220,7 +219,6 @@ select {
 
 .info-row {
 	width: 100%;
-	/* padding: 0 0.5em; */
 }
 
 .info-header {
@@ -231,7 +229,6 @@ select {
 	color: var(--yellow);
 	line-height: 3em;
 	text-shadow: 1px 1px 2px black;
-	font-size: var(--fs-big);
 }
 
 .info-tarjetas {
@@ -263,7 +260,7 @@ select {
 
 .info-tarjetas::after {
 	content: "";
-	background: var(--black) /* rgb(153, 220, 231) */;
+	background: var(--black);
 	opacity: 0.15;
 	position: absolute;
 	width: 100%;
@@ -370,13 +367,8 @@ iframe {
 		margin-top: 9px;
 	}
 
-	.info-header {
-		font-size: var(--fs-small);
-	}
-
 	.info-tarjeta {
 		flex-basis: 50%;
-		font-size: var(--fs-medium);
 	}
 
 	.ubicacion {
