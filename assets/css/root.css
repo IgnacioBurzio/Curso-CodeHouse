@@ -1,0 +1,11 @@
+:root {
+	--black: #000001;
+	--yellow: #ffff33;
+	--red: rgb(201, 81, 81);
+	--white: #fffcfc;
+	--gray: #8b8f92;
+	--light-black: #3d4145;
+	--fs-big: 24px;
+	--fs-medium: 20px;
+	--fs-small: 12px;
+}

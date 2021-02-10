@@ -1,0 +1,94 @@
+/* -------------------------------------------------------------------------------------RESET---------------------------------------------------------------------------- */
+@import url(root.css);
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/* -------------------------------------------------------------------------------------NAV BAR---------------------------------------------------------------------------- */
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: var(--black);
+
+	position: sticky;
+	top: 0;
+	width: 100%;
+	padding: 1em 1em;
+	z-index: 999;
+	font-family: "roboto", sans-serif;
+}
+
+header * {
+	list-style: none;
+	text-decoration: none;
+	color: var(--white);
+}
+
+header li :hover {
+	color: var(--yellow);
+}
+
+header > nav {
+	width: 50%;
+}
+
+header > nav > ul {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+#contacto {
+	width: 10%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.navegacion {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	position: absolute;
+	transform: translate(0, -100%);
+}
+
+.navegacion-lista {
+	height: 25%;
+	width: 100%;
+	background: var(--red);
+	padding: 2em;
+	border-bottom: 1px solid var(--black);
+	text-decoration: none;
+	color: var(--black);
+}
+.navegacion-lista:hover {
+	background: var(--red);
+}
+/* JS */
+
+.oculto {
+	transform: translate(0, 0);
+	position: sticky;
+	top: 0;
+}
+
+/* MEDIA Q */
+@media screen and (max-width: 900px) {
+	.menu-desktop {
+		display: none;
+	}
+	#contacto {
+		width: 100%;
+		margin: auto;
+	}
+}
+@media screen and (min-width: 901px) {
+	.menu-mobile {
+		display: none;
+	}
+}

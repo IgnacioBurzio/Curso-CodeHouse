@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" />
+    <title>Larruso Auto Group</title>
+    
+    <link rel="stylesheet" href="./assets/css/nav.css">
+    <link rel="stylesheet" href="./assets/css/home.css">
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+    
+    </head>
+
+  <body>
+<!-------------------------------------------------------------------------------------NAV BAR---------------------------------------------------------------------------->
+    <header>
+      <div ><img class="navboton" src="./img/bonsai.png" alt="" width="50px" height="50px" ></div>
+      
+      <nav class="menu-desktop">
+        <ul>
+          <li><a href="./views/venta.html">Autos en venta</a></li>
+          <li><a href="./views/financiacion.html">Financiacion</a></li>
+          <li><a href="./views/comparar.html">Comparar</a></li>
+          <li><a href="./views/contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+        
+      <ul  id="contacto">
+        <li><a href="#">IG</a></li>
+        <li><a href="#">FB</a></li>
+        <li><a href="#">YT</a></li>
+      </ul>
+
+    </header>
+
+    <nav class="menu-mobile">
+      <section class="navegacion"  >
+          <a class="navegacion-lista" href="./views/venta.html">Autos en venta</a>
+          <a class="navegacion-lista" href="./views/financiacion.html">Financiacion</a>
+          <a class="navegacion-lista" href="./views/comparar.html">Comparar</a>
+          <a class="navegacion-lista" href="./views/contacto.html">Contacto</a>
+      </section>
+    </nav>
+<!-------------------------------------------------------------------------------------CARRUSEL---------------------------------------------------------------------------->
+<div class="container-slider">
+  <div class="slider">
+    <div class="slider-section">
+      <img class="slider-img" src="img/slider.jpg"  alt="">
+    </div>
+    <div class="slider-section">
+      <img class="slider-img" src="img/car-63930_1280.jpg"  alt="">
+    </div>
+    <div class="slider-section">
+      <img class="slider-img" src="img/mercedes-3510327__340.webp"  alt="">
+    </div>
+    <div class="slider-section">
+      <img class="slider-img" src="img/sports-car-248241__340.webp"  alt="">
+    </div>
+    <div class="slider-section">
+      <img class="slider-img" src="img/fast-1281628__340.webp"  alt="">
+    </div>
+  </div>
+  <button class="slider-btn" id="prevBtn">&#60</button>
+  <button class="slider-btn" id="nextBtn">&#62</button>
+</div>
+
+
+
+
+<!-------------------------------------------------------------------------------------BUSCADOR---------------------------------------------------------------------------->
+
+
+  <div class="contenedor-buscador">
+      <div class="row-buscador">
+          <div class="buscador-header">
+            <h2>ENCONTRA TU AUTO</h2>
+            <div class="nuevo-usado">
+              <div class="nuevo">NUEVO</div>
+              <div class="usado">USADO</div>
+            </div>
+          </div>
+
+          <div class="buscador">
+            <div class="buscador-campos">
+              <select name="marca" id="marca">
+                <option value="chev">BRAND</option>
+                <option value="peug">peug</option>
+                <option value="ford">ford</option>
+                <option value="fiat">fiat</option>
+                <option value="volw">volw</option>
+                <option value="bmw">bmw</option>
+              </select>
+            </div>
+            <div class="buscador-campos">
+              <select name="año" id="año">
+                <option value="chev">MODEL</option>
+                <option value="peug">peug</option>
+                <option value="ford">ford</option>
+                <option value="fiat">fiat</option>
+                <option value="volw">volw</option>
+                <option value="bmw">bmw</option>
+              </select>
+            </div>
+            <div class="buscador-campos">
+              <select name="tipo" id="tipo">
+                <option value="chev">YEAR</option>
+                <option value="peug">peug</option>
+                <option value="ford">ford</option>
+                <option value="fiat">fiat</option>
+                <option value="volw">volw</option>
+                <option value="bmw">bmw</option>
+              </select>
+            </div>
+            <div class="buscador-campos">
+              <select name="tipo" id="tipo">
+              <option value="">...</option>
+              <option value=""></option>
+              <option value=""></option>
+              <option value=""></option>
+              <option value=""></option>
+              <option value=""></option>
+              </select>
+            </div>
+
+            <div class="btn-buscar">
+              <button class="btn">BUSCAR</button>
+            </div>
+          </div>
+      </div>
+      <div class="row-buscador">
+        <div class="marcas">
+          <img src="img/peug.png" alt="">
+          <img src="img/chev.png" alt="">
+          <img src="img/reno.png" alt="">
+          <img src="img/fiat.png" alt="">
+          <img src="img/nissan.png" alt="">
+          </div>
+
+      </div>
+  </div>
+
+
+<!-------------------------------------------------------------------------------------DATOS---------------------------------------------------------------------------->
+
+
+<div class="info-contenedor">
+  <div class="info-row">
+    <div class="info-header">
+      <h2>TITULO</h2>
+      <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, nostrum.</h3>
+    </div>
+  </div>
+  <div class="info-row">
+    <div class="info-tarjetas">
+    <img src="img/ejemplo2.jpg">
+    <div class="info-tarjeta">
+        <h3>SERVICIOS</h3>
+        <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, dolores.</h4>
+      </div>
+      <div class="info-tarjeta">
+        <h3>FINANCIACION</h3>
+        <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, dolores.</h4>
+      </div>
+      <div class="info-tarjeta">
+        <h3>FINANCIACION</h3>
+        <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, dolores.</h4>
+      </div>
+      <div class="info-tarjeta">
+        <h3>FINANCIACION</h3>
+        <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, dolores.</h4>
+      </div>
+      <div class="info-tarjeta">
+        <h3>FINANCIACION</h3>
+        <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, dolores.</h4>
+      </div>
+      <div class="info-tarjeta">
+        <h3>FINANCIACIONES</h3>
+        <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, dolores.</h4>
+      </div>
+      <div class="info-tarjeta">
+        <h3>FINANCIACION</h3>
+        <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, dolores.</h4>
+      </div>
+      <div class="info-tarjeta">
+        <h3>FINANCIACION</h3>
+        <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, dolores.</h4>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="ubicacion">
+  <div class="sucursales">
+    <ul>
+      <li>V.Lopez</li>
+      <li>Martinez</li>
+      <li>Almagro</li>
+      <li>Puerto Madero</li>
+    </ul>
+</div >
+<div class="mapa">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105073.1858154842!2d-58.503338055075545!3d-34.61586615900791!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3d05457fbb%3A0xe160f4fce7f7c017!2sBuenos%20Aires!5e0!3m2!1ses-419!2sar!4v1611889737345!5m2!1ses-419!2sar" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+</div> 
+
+</div>
+
+  <footer> </footer>
+  <script src="js/carousel.js"></script>
+  <script src="js/menu.js"></script>
+  </body>
+</html>
