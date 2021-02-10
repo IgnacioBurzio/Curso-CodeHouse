@@ -1,7 +1,7 @@
 console.log("hola")
 
 const $boton = document.querySelector(".navboton")
-const $navegacion = document.querySelector(".navegacion")
+const $navegacion = document.querySelector(".menu-mobile")
 
 
 function nav(){
