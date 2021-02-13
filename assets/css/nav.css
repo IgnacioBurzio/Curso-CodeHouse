@@ -58,12 +58,17 @@ header > nav > ul {
 .navegacion-lista {
 	height: 25%;
 	width: 100%;
-	background: linear-gradient(180deg, rgb(148, 143, 143), rgb(105, 99, 99));
+	background: var(--black);
 	padding: 2em;
-	border-bottom: 1px solid var(--black);
+	border-bottom: 1px solid var(--yellow);
 	text-decoration: none;
-	color: var(--black);
+	color: var(--white);
 }
+
+.navegacion-lista:nth-child(1) {
+	border-top: 1px solid white;
+}
+
 .navegacion-lista:hover {
 	background: var(--red);
 }

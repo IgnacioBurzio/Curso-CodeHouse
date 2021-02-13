@@ -1,3 +1,4 @@
+@import url(root.css);
 * {
   padding: 0;
   margin: 0;
@@ -58,7 +59,7 @@ body {
 }
 
 .comparar-container .comparar .img .fig-img {
-  width: 150px;
+  /* width: 150px; */
   height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -77,13 +78,12 @@ body {
 }
 
 .comparar-container .comparar .img .fig-img img {
-  width: 110px;
+  width: 200px;
   height: auto;
   margin: 0 auto;
 }
 
 .comparar-container .comparar .img .fig-img figcaption {
-  font-size: 20px;
   font-family: "roboto", sans-serif;
   margin: 5px 0;
   color: var(--white);
@@ -149,10 +149,6 @@ body {
           align-items: center;
 }
 
-.comparar-container .comparar .compararCar .section:nth-child(2) {
-  background: red;
-}
-
 .comparar-container .comparar .compararCar .section .section-header {
   height: 75px;
   width: 100%;
@@ -167,7 +163,6 @@ body {
           justify-content: center;
   border-bottom: 1px solid var(--white);
   border-top: 1px solid var(--white);
-  font-size: 25px;
   color: var(--white);
   font-family: "roboto", sans-serif;
 }
@@ -209,6 +204,8 @@ body {
           align-items: center;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  margin-bottom: 10px;
+  font-size: 16px;
 }
 
 .comparar-container .comparar .compararCar .section .section-items-container .section-item .item-header,
@@ -226,16 +223,14 @@ body {
   height: 50%;
   background: var(--light-black);
   font-family: "roboto", sans-serif;
-  font-size: larger;
   color: var(--white);
-  border-bottom: 5px solid var(--black);
+  /* border-bottom: 5px solid var(--black); */
 }
 
 .comparar-container .comparar .compararCar .section .section-items-container .section-item .item-info {
   background: var(--white);
   font-family: "roboto", sans-serif;
   color: var(--black);
-  font-size: 18px;
   border: none;
 }
 /*# sourceMappingURL=comparar.css.map */

@@ -33,7 +33,7 @@ body {
 			display: flex;
 			height: 200px;
 			.fig-img {
-				width: 150px;
+				/* width: 150px; */
 				height: 100%;
 				display: flex;
 				flex-direction: column;
@@ -41,7 +41,7 @@ body {
 				align-items: center;
 				padding-top: 10px;
 				img {
-					width: 110px;
+					width: 200px;
 					height: auto;
 					margin: 0 auto;
 				}
@@ -89,9 +89,6 @@ body {
 				display: flex;
 				flex-direction: column;
 				align-items: center;
-				&:nth-child(2) {
-					background: red;
-				}
 
 				.section-header {
 					height: 75px;
@@ -121,6 +118,8 @@ body {
 						flex-direction: column;
 						align-items: center;
 						justify-content: space-around;
+						margin-bottom: 10px;
+						font-size: 16px;
 
 						.item-header,
 						.item-info {
@@ -133,7 +132,7 @@ body {
 							font-family: "roboto", sans-serif;
 
 							color: var(--white);
-							border-bottom: 5px solid var(--black);
+							/* border-bottom: 5px solid var(--black); */
 						}
 						.item-info {
 							background: var(--white);
